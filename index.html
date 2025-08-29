@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Developed by G37">
+    <title>pira</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-hidden="true"></header>
+
+    <main class="container">
+      <section class="draw-section" aria-live="polite">
+        <div class="stage">
+          <div id="fx" class="fx" aria-hidden="true"></div>
+          <div class="pack" aria-hidden="true">
+            <div class="radiance"></div>
+            <div class="shine"></div>
+            <div class="pulse"></div>
+          </div>
+          <div id="sequence" class="sequence">
+            <span class="seq-item" id="seq-current"></span>
+          </div>
+          <div id="ceremony" class="ceremony" aria-hidden="true">
+            <div id="ceremony-text"></div>
+          </div>
+
+          <div id="winner-card" class="winner-card" aria-hidden="true">
+            <div class="badge">WINNER</div>
+            <div class="info">
+              <div><span class="label">학년</span><span id="card-grade"></span></div>
+              <div><span class="label">분임</span><span id="card-class"></span></div>
+              <div class="name" id="card-name"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="start-btn" class="btn-primary btn-lg">오픈</button>
+          <button id="reset-btn" class="btn-secondary" title="기록 초기화">리셋</button>
+        </div>
+
+        <p id="status" class="muted status"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-hidden="true"></footer>
+
+    <script src="assets/js/main.js?v=3"></script>
+  </body>
+  </html>
+
+
