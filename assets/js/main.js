@@ -92,10 +92,10 @@
   async function runSequence(student) {
     statusEl && (statusEl.textContent = '');
 
-    // 순서: 학년 -> 반 -> 이름 (한 번에 하나만 화면 중앙 표시)
+    // 순서: 학년 -> 분임 -> 이름 (한 번에 하나만 화면 중앙 표시)
     const steps = [
       `${student.grade}학년`,
-      `${student.class}반`,
+      `${student.class}분임`,
       `${student.name}`
     ];
 
@@ -130,7 +130,7 @@
 
     // Ceremony overlay: full line text (유지)
     if (ceremony && ceremonyText) {
-      ceremonyText.textContent = `${student.grade}학년 ${student.class}반 ${student.name}`;
+      ceremonyText.textContent = `${student.grade}학년 ${student.class}분임 ${student.name}`;
       ceremony.setAttribute('aria-hidden', 'false');
     }
   }
