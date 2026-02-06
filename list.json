@@ -28,7 +28,7 @@
   { "grade": 2, "class": 2, "name": "박유빈" },
   { "grade": 1, "class": 2, "name": "공예은" },
   { "grade": 1, "class": 2, "name": "문승윤" },
-  { "grade": 1, "class": 2, "name": "성하연" }
+  { "grade": 1, "class": 2, "name": "성하연" },
 
   { "grade": 6, "class": 3, "name": "김주영" },
   { "grade": 6, "class": 3, "name": "이준연" },
@@ -67,5 +67,5 @@
   { "grade": 1, "class": 4, "name": "김가을" },
   { "grade": 1, "class": 4, "name": "서하진" },
   { "grade": 1, "class": 4, "name": "손주은" },
-  { "grade": 1, "class": 4, "name": "이로휘" },
+  { "grade": 1, "class": 4, "name": "이로휘" }
 ]
